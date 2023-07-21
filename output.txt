@@ -1,0 +1,327 @@
+Script started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31moutput.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ mkdir src
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ gtt[K[Kit add[K[K[K[K[K[K[Kls
+[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ cd src
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls
+[0m[01;32madd.py[0m  [01;32mrish.py[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ cd ..
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ ls
+[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git add src [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kc
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   src/add.py[m
+	[32mnew file:   src/rish.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31moutput.txt[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git commi [Kt  -m ""a"d"d"i"n"g" "t"w"o" "p"y"t"h"o"n"="[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"_"t"w"o"_"p"y"t"[1P"[1P"u"[1P"y"_"f"i"l"e"s"[1Pfiles" files"[C[1P[1@ [1P[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C
+[main 9e423e6] adding two py files
+ 2 files changed, 4 insertions(+)
+ create mode 100644 src/add.py
+ create mode 100644 src/rish.py
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff
+[?1h=[1mdiff --git a/src/add.py b/src/add.py[m[m
+[1mindex aff5494..cf2003d 100644[m[m
+[1m--- a/src/add.py[m[m
+[1m+++ b/src/add.py[m[m
+[36m@@ -1,3 +1,3 @@[m[m
+[31m-a = 3[m[m
+[31m-b = 5[m[m
+[32m+[m[32ma = 10[m[m
+[32m+[m[32mb = 15[m[m
+ print(a+b)[m[m
+\ No newline at end of file[m[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   src/add.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31moutput.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ gir[Kt add .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ s[Kgit add .status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   output.txt[m
+	[32mmodified:   src/add.py[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff
+[?1h=[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff -- staged
+[?1h=[1mdiff --git a/output.txt b/output.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..299554b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -0,0 +1,51 @@[m[m
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pt[m [32m[m[32ms/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+:[K...skipping...
+[1mdiff --git a/output.txt b/output.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..299554b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -0,0 +1,51 @@[m[m
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ cd src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal[m [32m[m[32m[01;32m[00m[01;34m/repo_21july/src[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32madd.py[0m  [01;32mrish.py[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal[m [32m[m[32m[01;32m[00m[01;34m/repo_21july/src[00m$ cd ..[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ git add src [7m^M[27mc[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore --staged <file>..." to unstage)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   src/add.py[m[m[41m[7m^M[27m[m[m
+:[K[H[2J[H[H[2J[H[1mdiff --git a/output.txt b/output.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..299554b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -0,0 +1,51 @@[m[m
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ cd src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal[m [32m[m[32m[01;32m[00m[01;34m/repo_21july/src[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32madd.py[0m  [01;32mrish.py[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal[m [32m[m[32m[01;32m[00m[01;34m/repo_21july/src[00m$ cd ..[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ git add src [7m^M[27mc[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/rep[m [32m[m[32m[01;32m[00m[01;34mo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+:[K[H[2J[H[H[2J[H[1mdiff --git a/output.txt b/output.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..299554b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -0,0 +1,51 @@[m[m
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pt[m [32m[m[32ms/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m :[K[K[32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ cd src[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masi[m :[K[K[32m[m[32m[01;32mfreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[0m[01;32madd.py[0m  [01;32mrish.py[0m[m[41m[7m^M[27m[m[m
+:[K[K:[K[K[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masi[m :[K[K [KESCESC[K[[[KAA[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KBB[K:[K[K [KESCESC[K[[[KAA[K:[K[K [KESCESC[K[[[KAA[K:[K[K [KESCESC[K[[[KAA[K:[K[K [KESCESC[K[[[KAA[K:[K[K [KESCESC[K[[[KAA[K:[K[K [KESCESC[K[[[KDD[K:[K[K [KESCESC[K[[[KDD[K:[K[K [KESCESC[K[[[KDD[K:[K[K [KESCESC[K[[[KCC[K:[K[K [KESCESC[K[[[KCC[K:[K[K [KESCESC[K[[[KCC[K:[K[K [KESCESC[K[[[KCC[K:[K[K [KESCESC[K[[[KCC[K:[K[K [K^X^X[K^J^J[K:[K[Kset mark: ...skipping...
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pt[m [32m[m[32ms/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ cd src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masi[m [32m[m[32m[01;32mfreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32madd.py[0m  [01;32mrish.py[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masi[m :[K[Kset mark: ...skipping...
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pt[m [32m[m[32ms/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ cd src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masi[m [32m[m[32m[01;32mfreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32madd.py[0m  [01;32mrish.py[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[7m^G[27m[01;32masi[m :[K[K:[K[K:[K[K:[K[K[32m[m[32m[01;32mfreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ cd ..[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git add src [7m^M[27mc[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore --staged <file>..." to unstage)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   src/add.py[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   src/rish.py[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git commit  [7m^M[27m-m "[m [32m[m[32m[01;32m[00m[01;34m[00maddin [7m^G^G^G^G^G[27m[m[41m[7m^M[27m[m[m
+:[K[K:[K[K:[K[K:[K[K [K^X^X[K^?^?[K:[K[K[?1l>
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ clear
+[H[2J[3J]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   output.txt[m
+	[32mmodified:   src/add.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   output.txt[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff
+[?1h=[1mdiff --git a/output.txt b/output.txt[m[m
+[1mindex 299554b..8c976a2 100644[m[m
+[1m--- a/output.txt[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -48,4 +48,177 @@[m [mUntracked files:[m[m
+ [32m+[m[32mb = 15[m[m[m[m
+  print(a+b)[m[m[m[m
+ \ No newline at end of file[m[m[m[m
+[31m-[7m^M[27m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifr[m [31m[01;32meak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git[m[m
+\ No newline at end of file[m[m
+[32m+[m[32m[7m^M[27m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifr[m [32m[m[32m[01;32meak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is ahead of 'origin/main' by 1 commit.[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git push" to publish your local commits)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   src/add.py[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff -s taged
+[?1h=error: invalid option: -staged[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff -staged[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-staged[A]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ [C[C[C[C[C[C[C[C[C[C
+
+[?1h=[1mdiff --git a/output.txt b/output.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..299554b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -0,0 +1,51 @@[m[m
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pt[m [32m[m[32ms/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git stst[K[Katus
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   output.txt[m
+	[32mmodified:   src/add.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   output.txt[m
+	[31mmodified:   src/add.py[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff
+[?1h=[1mdiff --git a/output.txt b/output.txt[m[m
+[1mindex 299554b..046da0f 100644[m[m
+[1m--- a/output.txt[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -48,4 +48,228 @@[m [mUntracked files:[m[m
+ [32m+[m[32mb = 15[m[m[m[m
+  print(a+b)[m[m[m[m
+ \ No newline at end of file[m[m[m[m
+[31m-[7m^M[27m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifr[m [31m[01;32meak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git[m[m
+\ No newline at end of file[m[m
+[32m+[m[32m[7m^M[27m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifr[m [32m[m[32m[01;32meak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is ahead of 'origin/main' by 1 commit.[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git push" to publish your local commits)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M
