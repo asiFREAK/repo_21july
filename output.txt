@@ -324,4 +324,48 @@ Changes not staged for commit:
 [32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
 [32m+[m[32mYour branch is ahead of 'origin/main' by 1 commit.[m[41m[7m^M[27m[m[m
 [32m+[m[32m  (use "git push" to publish your local commits)[m[41m[7m^M[27m[m[m
-[32m+[m[41m[7m^M
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   src/add.py[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git add .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   output.txt[m
+	[32mmodified:   src/add.py[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff
+[?1h=[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git diff -- staged
+[?1h=[1mdiff --git a/output.txt b/output.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..307eb83[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/output.txt[m[m
+[36m@@ -0,0 +1,327 @@[m[m
+[32m+[m[32mScript started on 2023-07-21 16:53:51+05:30 [TERM="xterm-256color" TTY="/dev/pt[m [32m[m[32ms/0" COLUMNS="80" LINES="24"][m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31moutput.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ mkdir src[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[7m^G[27m[01;32masifrea[m [32m[m[32m[01;32mk@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ [7m^G^G^G^G^G^G[27mls[m[41m[7m^M[27m[m[m
+[32m+[m[32m[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ 
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ clear
+[H[2J[3J]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git comi[Kmit  - [Km ""i"n"i"t"i"a"l" "c"o"m"m"i"t" "w"i"t"i"h" "[1P"[1P"[1P"h" "s"t"a"g"e" "c"h"a"n"g"e"s"
+[main 93dae96] initial commit with stage changes
+ 2 files changed, 329 insertions(+), 2 deletions(-)
+ create mode 100644 
