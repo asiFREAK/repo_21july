@@ -368,4 +368,177 @@ Changes to be committed:
 [H[2J[3J]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git comi[Kmit  - [Km ""i"n"i"t"i"a"l" "c"o"m"m"i"t" "w"i"t"i"h" "[1P"[1P"[1P"h" "s"t"a"g"e" "c"h"a"n"g"e"s"
 [main 93dae96] initial commit with stage changes
  2 files changed, 329 insertions(+), 2 deletions(-)
- create mode 100644 
+ create mode 100644 output.txt
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git log
+[?1h=[33mcommit 93dae966046027efd88de2bf2ef0a7c6e13a0d51[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 18:11:03 2023 +0530[m
+[m
+    initial commit with stage changes[m
+[m
+[33mcommit 9e423e66d0faf4a5efdfaaa461f6ebb5fe813c09[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 17:11:04 2023 +0530[m
+[m
+    adding two py files[m
+[m
+[33mcommit d8e9f7434572889482505e026e193a232bb3fd5f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Rishav Agarwal <ra0182108@gmail.com>[m
+Date:   Fri Jul 21 15:58:34 2023 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git show 9e423e66d0faf4a5efdfaaa461f6ebb5fe813c09
+[?1h=[33mcommit 9e423e66d0faf4a5efdfaaa461f6ebb5fe813c09[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 17:11:04 2023 +0530[m
+[m
+    adding two py files[m
+[m
+[1mdiff --git a/src/add.py b/src/add.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..aff5494[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/src/add.py[m[m
+[36m@@ -0,0 +1,3 @@[m[m
+[32m+[m[32ma = 3[m[m
+[32m+[m[32mb = 5[m[m
+[32m+[m[32mprint(a+b)[m[m
+\ No newline at end of file[m[m
+[1mdiff --git a/src/rish.py b/src/rish.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e75154b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/src/rish.py[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mprint("hello world")[m[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git rev [K-par se --short
+fatal: Needed a single revision
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git show 9e 4
+fatal: ambiguous argument '9e4': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git show 9e42
+[?1h=[33mcommit 9e423e66d0faf4a5efdfaaa461f6ebb5fe813c09[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 17:11:04 2023 +0530[m
+[m
+    adding two py files[m
+[m
+[1mdiff --git a/src/add.py b/src/add.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..aff5494[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/src/add.py[m[m
+[36m@@ -0,0 +1,3 @@[m[m
+[32m+[m[32ma = 3[m[m
+[32m+[m[32mb = 5[m[m
+[32m+[m[32mprint(a+b)[m[m
+\ No newline at end of file[m[m
+[1mdiff --git a/src/rish.py b/src/rish.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e75154b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/src/rish.py[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mprint("hello world")[m[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git ad [Kd .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git commit  -m "addd[Ked go file"
+[main 502ca55] added go file
+ 2 files changed, 52 insertions(+), 1 deletion(-)
+ create mode 100644 src/hello.go
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   output.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ git rm  [Khell o.go
+fatal: pathspec 'hello.go' did not match any files
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ ls
+[0m[01;32moutput.txt[0m  [01;32mREADME.md[0m  [34;42msrc[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july[00m$ cd src
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git rm  hello.go
+rm 'src/hello.go'
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ l
+[0m[01;32madd.py[0m*  [01;32mrish.py[0m*
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls
+[0m[01;32madd.py[0m  [01;32mrish.py[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git sta tus
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    hello.go[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../output.txt[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git com mit -m "deleted go file"
+[main 58b13f9] deleted go file
+ 1 file changed, 7 deletions(-)
+ delete mode 100644 src/hello.go
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ rm add. py[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Krish .py
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls
+[0m[01;32madd.py[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git sta tus
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../output.txt[m
+	[31mdeleted:    rish.py[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git add  .[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd  .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git com mit -m "deleted rish[K[K[K[Kone py fle[K[Kile"
+[main 827395e] deleted one py file
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 src/rish.py
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git mv  add.py sum.py
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls
+[0m[01;32msum.py[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git sta tus
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mrenamed:    add.py -> sum.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../output.txt[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git add . [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd  .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git com mit -m "renamed p file[K[K[K[K[K[Kpy file;[K[K"[Ke"
+[main 50d3c33] renamed py file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename src/{add.py => sum.py} (100%)
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ mv sum. py add2.py
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ ls
+[0m[01;32madd2.py[0m
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git sta tus
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>
