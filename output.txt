@@ -541,4 +541,275 @@ Your branch is ahead of 'origin/main' by 6 commits.
 
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../output.txt[m
+	[31mdeleted:    sum.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31madd2.py[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git add  -A
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git sta tus
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   ../output.txt[m
+	[32mrenamed:    sum.py -> add2.py[m
+
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git add  .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git com mit -m "reame[K[K[Kname with os command"
+[main faa0285] rename with os command
+ 2 files changed, 174 insertions(+), 1 deletion(-)
+ rename src/{sum.py => add2.py} (100%)
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git hel p log
+[?1049h[22;0;0t[?1h=GIT-LOG(1)                        Git Manual                        GIT-LOG(1)[m
+[m
+[1mNAME[0m[m
+       git-log - Show commit logs[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mlog[24m [<options>] [<revision range>] [[--] <path>...][m
+[m
+[1mDESCRIPTION[0m[m
+       Shows the commit logs.[m
+[m
+       The command takes options applicable to the [1mgit[0m [1mrev-list[0m command to[m
+       control what is shown and how, and options applicable to the [1mgit[0m [1mdiff-*[0m[m
+       commands to control how the changes each commit introduces are shown.[m
+[m
+[1mOPTIONS[0m[m
+       --follow[m
+           Continue listing the history of a file beyond renames (works only[m
+           for a single file).[m
+[m
+       --no-decorate, --decorate[=short|full|auto|no][m
+           Print out the ref names of any commits that are shown. If [4mshort[24m is[m
+           specified, the ref name prefixes [4mrefs/heads/[24m, [4mrefs/tags/[24m and[m
+[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-log(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git log  -n 3
+[?1h=[33mcommit faa0285f925bd822b21ff5349e8ce29780de9c7e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:33:20 2023 +0530[m
+[m
+    rename with os command[m
+[m
+[33mcommit 50d3c33fd7ffaaf4235945073c5529993c6dad79[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:02:45 2023 +0530[m
+[m
+    renamed py file[m
+[m
+[33mcommit 827395e363e93616e7be173a8f9ee01b633a3bf8[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:01:38 2023 +0530[m
+[m
+    deleted one py file[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git f[Kdif f --stat
+[?1h= output.txt | 51 [32m++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m[m
+ 1 file changed, 50 insertions(+), 1 deletion(-)[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git diff --stat
+[?1h= output.txt  | 51 [32m++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m[m
+ src/add2.py |  2 [32m+[m[31m-[m[m
+ 2 files changed, 51 insertions(+), 2 deletions(-)[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git add . 
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git add  .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git com mit -m "updates [K[Kd py file"
+[main add3d9c] updated py file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ gti [K[K[Kit sho w
+[?1h=[33mcommit add3d9c1888ac1df65a0eeed46e269229010c247[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:39:20 2023 +0530[m
+[m
+    updated py file[m
+[m
+[1mdiff --git a/src/add2.py b/src/add2.py[m[m
+[1mindex a224c02..fead086 100644[m[m
+[1m--- a/src/add2.py[m[m
+[1m+++ b/src/add2.py[m[m
+[36m@@ -1,3 +1,3 @@[m[m
+[31m-a = 7[m[m
+[32m+[m[32ma = 10[m[m
+ b = 9[m[m
+ print(a+b)[m[m
+\ No newline at end of file[m[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ gti [K[K[Kit sho w --stat
+[?1h=[33mcommit add3d9c1888ac1df65a0eeed46e269229010c247[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:39:20 2023 +0530[m
+[m
+    updated py file[m
+[m
+ src/add2.py | 2 [32m+[m[31m-[m[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git log [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg
+[?1h=[33mcommit add3d9c1888ac1df65a0eeed46e269229010c247[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:39:20 2023 +0530[m
+[m
+    updated py file[m
+[m
+[33mcommit faa0285f925bd822b21ff5349e8ce29780de9c7e[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:33:20 2023 +0530[m
+[m
+    rename with os command[m
+[m
+[33mcommit 50d3c33fd7ffaaf4235945073c5529993c6dad79[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:02:45 2023 +0530[m
+[m
+    renamed py file[m
+[m
+[33mcommit 827395e363e93616e7be173a8f9ee01b633a3bf8[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:01:38 2023 +0530[m
+[m
+    deleted one py file[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git log  --stat
+[?1h=[33mcommit add3d9c1888ac1df65a0eeed46e269229010c247[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:39:20 2023 +0530[m
+[m
+    updated py file[m
+[m
+ src/add2.py | 2 [32m+[m[31m-[m[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)[m
+[m
+[33mcommit faa0285f925bd822b21ff5349e8ce29780de9c7e[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:33:20 2023 +0530[m
+[m
+    rename with os command[m
+[m
+ output.txt              | 175 [32m+++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m[m
+ src/{sum.py => add2.py} |   0[m
+ 2 files changed, 174 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit 50d3c33fd7ffaaf4235945073c5529993c6dad79[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:02:45 2023 +0530[m
+[m
+:[K[K [KESCESC[KOO[KBB[K    renamed py file[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K src/{add.py => sum.py} | 0[m
+:[K[K [KESCESC[KOO[KBB[K 1 file changed, 0 insertions(+), 0 deletions(-)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 827395e363e93616e7be173a8f9ee01b633a3bf8[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: ElRishh <rishav.a.brudite@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Fri Jul 21 19:01:38 2023 +0530[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    deleted one py file[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K src/rish.py | 1 [31m-[m[m
+:[K[K [KESCESC[KOO[KBB[K 1 file changed, 1 deletion(-)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 58b13f906e503e759af3097af6c4708b949db8b4[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: ElRishh <rishav.a.brudite@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Fri Jul 21 19:00:11 2023 +0530[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    deleted go file[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K src/hello.go | 7 [31m-------[m[m
+:[K[K [KESCESC[KOO[KBB[K 1 file changed, 7 deletions(-)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 502ca55aa4354ce332a9d4f740c8fd7e4db06bc2[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: ElRishh <rishav.a.brudite@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Fri Jul 21 18:58:15 2023 +0530[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    added go file[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K output.txt   | 46 [32m+++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m[m
+:[K[K [KESCESC[KOO[KBB[K src/hello.go |  7 [32m+++++++[m[m
+:[K[K [KESCESC[KOO[KBB[K 2 files changed, 52 insertions(+), 1 deletion(-)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 93dae966046027efd88de2bf2ef0a7c6e13a0d51[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: ElRishh <rishav.a.brudite@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Fri Jul 21 18:11:03 2023 +0530[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    initial commit with stage changes[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K output.txt | 327 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+:[K[K [KESCESC[KOO[KBB[K src/add.py |   4 [32m+[m[31m-[m[m
+:[K[K [KESCESC[KOO[KBB[K 2 files changed, 329 insertions(+), 2 deletions(-)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 9e423e66d0faf4a5efdfaaa461f6ebb5fe813c09[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: ElRishh <rishav.a.brudite@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Fri Jul 21 17:11:04 2023 +0530[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    adding two py files[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K src/add.py  | 3 [32m+++[m[m
+:[K[K [KESCESC[KOO[KBB[K src/rish.py | 1 [32m+[m[m
+:[K[K [KESCESC[KOO[KBB[K 2 files changed, 4 insertions(+)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit d8e9f7434572889482505e026e193a232bb3fd5f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Rishav Agarwal <ra0182108@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Fri Jul 21 15:58:34 2023 +0530[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K README.md | 2 [32m++[m[m
+:[K[K [KESCESC[KOO[KBB[K 1 file changed, 2 insertions(+)[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git sta tus
+On branch main
+Your branch is ahead of 'origin/main' by 8 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../output.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git add  .
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git com mit -m "change to d=s[K[K[K[K[K[K[Kd to see diff between 2 commit [K"
+[main 8f3b964] changed to see diff between 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git log [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg
+[?1h=[33mcommit 8f3b9641d29c35874c210e6224ee0818a0f90d3a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:45:15 2023 +0530[m
+[m
+    changed to see diff between 2 commit[m
+[m
+[33mcommit add3d9c1888ac1df65a0eeed46e269229010c247[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:39:20 2023 +0530[m
+[m
+    updated py file[m
+[m
+[33mcommit faa0285f925bd822b21ff5349e8ce29780de9c7e[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:33:20 2023 +0530[m
+[m
+    rename with os command[m
+[m
+[33mcommit 50d3c33fd7ffaaf4235945073c5529993c6dad79[m[m
+Author: ElRishh <rishav.a.brudite@gmail.com>[m
+Date:   Fri Jul 21 19:02:45 2023 +0530[m
+[m
+    renamed py file[m
+:[K[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ git dif f 8f3b..add3
+[?1h=[1mdiff --git a/src/add2.py b/src/add2.py[m[m
+[1mindex 5c2e257..fead086 100644[m[m
+[1m--- a/src/add2.py[m[m
+[1m+++ b/src/add2.py[m[m
+[36m@@ -1,3 +1,3 @@[m[m
+ a = 10[m[m
+[31m-b = 20[m[m
+[32m+[m[32mb = 9[m[m
+ print(a+b)[m[m
+\ No newline at end of file[m[m
+[K[?1l>]0;asifreak@asifreak: /media/asifreak/TOOLS/github/personal/repo_21july/src[01;32masifreak@asifreak[00m:[01;34m/media/asifreak/TOOLS/github/personal/repo_21july/src[00m$ exit
+exit
+
+Script done on 2023-07-21 19:48:02+05:30 [COMMAND_EXIT_CODE="0"]
